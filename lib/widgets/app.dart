@@ -161,7 +161,7 @@ class _UserInfoColumnWidget extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: const [
                 SizedBox(
-                  height: 40,
+                  height: 15,
                 ),
                 _AvatarWidget(),
                 SizedBox(
@@ -206,7 +206,7 @@ class _UserNameWidget extends StatelessWidget {
     return const Text(
       'Александр',
       style: TextStyle(
-          fontSize: 29, fontWeight: FontWeight.w600, letterSpacing: 0.0),
+          fontSize: 28, fontWeight: FontWeight.w600, letterSpacing: -0.5),
     );
   }
 }
@@ -220,7 +220,7 @@ class _UserInfoWidget extends StatelessWidget {
         child: Text(
       '+375 33 655-62-17 • @SimpleSanya',
       style: TextStyle(
-          fontSize: 18,
+          fontSize: 16,
           color: Colors.grey.shade600,
           fontWeight: FontWeight.w300,
           letterSpacing: 0),
