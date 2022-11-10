@@ -218,7 +218,7 @@ class _UserInfoWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         child: Text(
-      '+375 33 655-62-17 • @SimpleSanya',
+      '+375 33 555-66-77 • @SimpleSanya',
       style: TextStyle(
           fontSize: 16,
           color: Colors.grey.shade600,
